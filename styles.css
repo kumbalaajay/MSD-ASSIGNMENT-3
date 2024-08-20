@@ -1,0 +1,44 @@
+/* styles.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #333;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+#toggleButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+#toggleButton:hover {
+    background-color: #0056b3;
+}
+
+#toggleButton:active {
+    background-color: #004494;
+}
+
+#text {
+    font-size: 20px;
+    margin-top: 15px;
+    color: #333;
+}
